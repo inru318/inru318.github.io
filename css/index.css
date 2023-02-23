@@ -3213,7 +3213,6 @@ h1.page-title + .tag-cloud-list {
 #page-header {
   position: relative;
   width: 100%;
-  background-color: #9d9d9d;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3231,12 +3230,12 @@ h1.page-title + .tag-cloud-list {
   content: '';
 }
 #page-header.full_page {
-  height: 100vh;
-  background-attachment: fixed;
+  height: 450px;
+  background-attachment: scroll;
 }
 #page-header.full_page #site-info {
   position: absolute;
-  top: 43%;
+  top: 150px;
   padding: 0 10px;
   width: 100%;
 }
