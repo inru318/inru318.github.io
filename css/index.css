@@ -1343,7 +1343,7 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #2c4054;
+  --btn-hover-color: #adadad;
   --btn-color: #fff;
   --btn-bg: rgba(44,64,84,0.251);
   --text-bg-hover: rgba(44,64,84,0.7);
@@ -1357,7 +1357,7 @@ canvas:not(#ribbon-canvas),
   --toc-link-color: #666261;
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
-  --pseudo-hover: #2c4054;
+  --pseudo-hover: #adadad;
   --headline-presudo: #a0a0a0;
   --scrollbar-color: #d0d0d0;
   --default-bg-color: rgba(44,64,84,0.251);
@@ -1388,6 +1388,17 @@ body {
 }
 input::placeholder {
   color: var(--font-color);
+}
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: url(/img/cover/background_road.jpg);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h1,
 h2,
@@ -2531,7 +2542,7 @@ h1.page-title + .tag-cloud-list {
   line-height: 2.4;
 }
 #aside-content .card-info #card-info-btn:hover {
-  background-color: var(--btn-hover-color);
+  background-color: #a3d1d1;
 }
 #aside-content .card-info #card-info-btn span {
   padding-left: 10px;
@@ -3237,12 +3248,12 @@ h1.page-title + .tag-cloud-list {
   content: '';
 }
 #page-header.full_page {
-  height: 450px;
+  height: 350px;
   background-attachment: scroll;
 }
 #page-header.full_page #site-info {
   position: absolute;
-  top: 150px;
+  top: 130px;
   padding: 0 10px;
   width: 100%;
 }
@@ -4103,7 +4114,7 @@ h1.page-title + .tag-cloud-list {
   text-align: center;
 }
 #pagination .page-number.current {
-  background: rgba(0,48,96,0.502);
+  background: rgba(13,13,13,0.502);
   color: var(--white);
 }
 #pagination .pagination-info {
@@ -4653,7 +4664,7 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap {
   --waline-font-size: 1.1em;
   --waline-theme-color: rgba(44,64,84,0.251);
-  --waline-active-color: #2c4054;
+  --waline-active-color: #adadad;
 }
 #waline-wrap .wl-comment-actions > button:not(last-child) {
   padding-right: 4px;
