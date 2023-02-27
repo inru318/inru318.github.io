@@ -2411,7 +2411,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title:hover {
-  color: rgba(44,64,84,0.251);
+  color: #b8dbef;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   margin: 6px 0;
@@ -2443,7 +2443,7 @@ figure.highlight pre .javascript .function {
   color: #858585;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
-  color: rgba(44,64,84,0.251);
+  color: #f0f0f0;
   text-decoration: underline;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .content {
