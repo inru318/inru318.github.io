@@ -4,11 +4,11 @@
 }
 /* 分类页面 */ 
 div#category{
-background: rgba(255, 255, 255, 0.8);
+background: rgba(255, 255, 255, 0.85);
 }
 /* 文章页面正文背景 */
 div#post{
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.85);
 }
 
 /* 首页侧栏卡片 */
