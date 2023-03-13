@@ -2550,7 +2550,7 @@ h1.page-title + .tag-cloud-list {
   line-height: 2.4;
 }
 #aside-content .card-info #card-info-btn:hover {
-  background-color: var(--btn-hover-color);
+  background-color: rgba(100,33,0,0.502);
 }
 #aside-content .card-info #card-info-btn span {
   padding-left: 10px;
@@ -2644,7 +2644,7 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content .aside-list > .aside-list-item .content > .title:hover,
 #aside-content .aside-list > .aside-list-item .content > .comment:hover {
-  color: rgba(44,64,84,0.251);
+  color: rgba(0,48,96,0.502);
 }
 #aside-content .aside-list > .aside-list-item.no-cover {
   min-height: 4.4em;
@@ -2838,10 +2838,10 @@ h1.page-title + .tag-cloud-list {
   transition: all 0.2s ease-in-out;
 }
 #aside-content #card-toc .toc-content .toc-link:hover {
-  color: rgba(44,64,84,0.251);
+  color: rgba(0,48,96,0.502);
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #00c4b6;
+  background: rgba(0,48,96,0.502);
   color: #fff;
 }
 #aside-content .sticky_layout:only-child > :first-child {
