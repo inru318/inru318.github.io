@@ -1427,7 +1427,7 @@ h6 code {
 hr {
   position: relative;
   margin: 40px auto;
-  border: 2px dashed var(--hr-border);
+  border: 2px dashed #000;
   width: calc(100% - 4px);
 }
 hr:hover:before {
@@ -1438,7 +1438,7 @@ hr:before {
   top: -10px;
   left: 5%;
   z-index: 1;
-  color: var(--hr-before-color);
+  color: #000;
   content: '\f0c4';
   font-size: 20px;
   line-height: 1;
@@ -1465,7 +1465,7 @@ table thead {
 table th,
 table td {
   padding: 6px 12px;
-  border: 1px solid var(--light-grey);
+  border: 1px solid #000;
   vertical-align: middle;
 }
 *::selection {
