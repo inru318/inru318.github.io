@@ -1,6 +1,6 @@
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item{
-    background:rgba(0, 0, 0, 0.675);
+    background:rgb(255, 255, 255,0.9);
 }
 /* 分类页面 */ 
 div#category{

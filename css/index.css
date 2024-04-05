@@ -2395,7 +2395,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
-  color: #fff;
+  color: #000;
   font-size: 1.72em;
   line-height: 1.4;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2411,7 +2411,7 @@ figure.highlight pre .javascript .function {
   }
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title:hover {
-  color: #b8dbef;
+  color: #7b7b7b;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
   margin: 6px 0;
@@ -2544,13 +2544,13 @@ h1.page-title + .tag-cloud-list {
 #aside-content .card-info #card-info-btn {
   display: block;
   margin-top: 14px;
-  background-color: rgba(0,48,96,0.502);
+  background-color: #000;
   color: var(--btn-color);
   text-align: center;
   line-height: 2.4;
 }
 #aside-content .card-info #card-info-btn:hover {
-  background-color: rgba(100,33,0,0.502);
+  background-color: #6c6c6c;
 }
 #aside-content .card-info #card-info-btn span {
   padding-left: 10px;
@@ -2644,7 +2644,7 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content .aside-list > .aside-list-item .content > .title:hover,
 #aside-content .aside-list > .aside-list-item .content > .comment:hover {
-  color: rgba(0,48,96,0.502);
+  color: #ae8f00;
 }
 #aside-content .aside-list > .aside-list-item.no-cover {
   min-height: 4.4em;
